@@ -38,29 +38,29 @@ function compareNumbers() {
     if (a != b) {
         z.innerHTML = "Numbers are not the same. Computer got " + b + ", and the user got  " + a;
         z.style.color = "white";
-        z.style.backgroundColor = "red";
+        z.style.backgroundColor = "indianred";
         z.style.padding = "20px";
         z.style.textAlign = "center";
         counter++
         c.innerHTML = "You have tried " + counter + " time(s)."
         c.style.color = "white";
-        c.style.backgroundColor = "grey";
+        c.style.backgroundColor = "slategray";
         c.style.padding = "20px";
         c.style.textAlign = "center";
         document.querySelector("body").style.backgroundColor = "pink"
     } else if (a=b) {
         z.innerHTML = "Numbers are the same. Computer got " + b + ", and the user got  " +  a ;
         z.style.color = "white";
-        z.style.backgroundColor = "green";
+        z.style.backgroundColor = "olivedrab";
         z.style.padding = "20px";
         z.style.textAlign = "center";
         c.innerHTML = "You have tried " + counter + " time(s) to get it right."
         c.style.color = "white";
-        c.style.backgroundColor = "grey";
+        c.style.backgroundColor = "slategray";
         c.style.padding = "20px";
         c.style.textAlign = "center";
         counter = 0;
-        document.querySelector("body").style.backgroundColor = "lime"
+        document.querySelector("body").style.backgroundColor = "palegreen"
     }
 
     resetInput();

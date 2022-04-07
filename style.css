@@ -17,16 +17,25 @@
 }
 
 .header {
-    background-color: rgb(187, 77, 187);
+    display: flex;
+    justify-content: center;
+    background-color: navajowhite;
     color: white;
     padding: 20px;
     text-align: center;
+    font-family: fantasy;
 }
 
 .instructions {
-    background-color: rgb(143, 59, 143);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: navajowhite;
     color: white;
     padding: 20px;
     text-align: center;
+    font-family: fantasy;
+    margin-bottom: 50px;
 
 }
+
